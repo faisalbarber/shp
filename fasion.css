@@ -1,0 +1,268 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.main-wrap{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.wrapper::before {
+    display: block;
+    content: '';
+    height: 150px;
+  }
+:root{
+    ---brand:#5cdb95;
+    ---buttons:#05386b;
+    ---hovers:#379683;
+    ---texts:#edf5e1;
+    ---back:#d1d1d1;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    transition: .4s;
+    color: var(---buttons);
+    font-weight: 500;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    background-color: var(---hovers);
+    border-radius: 7%;
+    color: white;
+    
+}
+i{
+    transition: .4s;
+    cursor: pointer;
+    
+}
+i.bi-facebook:hover{
+    color: #3b5998;
+
+}
+i.bi-instagram:hover{
+    color: #8a3ab9;
+}
+i.bi-whatsapp:hover{
+    color: #07712e;
+}
+.navbar{
+    background: transparent !important;
+}
+.wrapper{
+   background: linear-gradient(#5cdb95,rgba(0,0,0,0.6)),url("/main-back.jpg");
+    min-height: 104vh;
+    min-width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+span.Primary{
+    color: var(---buttons);
+    font-weight: 700;
+
+}
+.titles h1{
+    text-transform: uppercase;
+    color: var(---buttons);
+
+
+}
+#style{
+    font-family: 'Style Script', cursive;
+    font-weight: 400;
+
+}
+.para1 p{
+    color: #edf5e1;
+    font-weight: 500;
+}
+button.btn.btn-primary1{
+    background-color: var(---buttons);
+    color: #edf5e1;
+
+
+}
+button.btn.btn-primary1:hover{
+    background-color:hsl(210, 57%, 48%);
+
+}
+#section07 a {
+	padding-top: 80px;
+}
+#section07 a span {
+	position: absolute;
+
+	left: 50%;
+	width: 24px;
+	height: 24px;
+	margin-left: -12px;
+	border-left: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	-webkit-animation: sdb07 2s infinite;
+	animation: sdb07 2s infinite;
+	opacity: 0;
+	box-sizing: border-box;
+}
+/* #section07 a span:nth-of-type(1) {
+	-webkit-animation-delay: 0s;
+	animation-delay: 0s;
+} */
+/* #section07 a span:nth-of-type(2) {
+	top: 16px;
+	-webkit-animation-delay: 0.15s;
+	animation-delay: 0.15s;
+} */
+#section07 a span:nth-of-type(3) {
+
+	-webkit-animation-delay: 0.3s;
+	animation-delay: 0.3s;
+}
+@-webkit-keyframes sdb07 {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+@keyframes sdb07 {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+.services{
+    background-color: #e6f4ec;
+    min-height: 60vh;
+}
+.BgColour {
+
+    transition: all 1s;
+    background-color: var(---texts)!important;
+    box-shadow: 2px 2px 2px 2px #183933;
+   
+}
+.salon{
+    font-family: 'Syne Mono', monospace;
+    font-weight: 400;
+}
+span.fasil{
+    color:var(---hovers);
+    
+}
+.circle {
+    background-color: var(---buttons);
+    min-height: 20px;
+    min-width:20px;
+    border-radius: 50%;
+    color: #d1d1d1;
+    
+}
+img.border.img-fluid.w-100{
+    border: 2px solid #05386b !important;
+    border-radius: 5%;
+}
+.card{
+    transition: .3s;
+}
+.card:hover{
+    box-shadow: 10px 10px 10px 10px #183933;
+}
+.wrap{
+    background: linear-gradient(#379683,#86febc);
+    min-height: 50vh;
+    min-width: 100%;
+}
+.fasil2{
+    color: #05386b;
+}
+.row.color-box{
+    background-color: var(---buttons);
+    min-width: 10vh;
+    min-width: 100%;
+    border: 2px solid;
+
+
+
+}
+.counter{
+    color: #3b5998;
+}
+.hair img{
+    width: 10%;
+}
+#our{
+    color: var(---texts);
+}
+.more-services{
+    background: linear-gradient(rgba(0,0,0,0.5),rgb(51, 46, 46)),url(/fix.jpg);
+    min-height: 65vh;
+    min-width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+#more{
+    color: var(---brand);
+}
+.bi-scissors{
+    color: #379683;
+}
+.hair img{
+    /* min-width: 20%; */
+    min-height: 20vh !important;
+    
+}
+#our2{
+    color: var(---hovers);
+}
+.comb img{
+    border: 2px solid #07712e;
+    overflow: hidden;
+    border-radius: 4%;
+
+}
+.ok h3{
+    color: #d1d1d1 !important;
+}
+.contact{
+    min-height: 70vh;
+    min-width: 100%;
+    background-color: #d1d1d1;
+}
+.navbar-brand img{
+    width: 30%;
+    height: 20%;
+    transform: translate(1.6);
+  
+}
+.main-wrapper{
+    min-width: 600px  !important;
+    min-height: 500px !important;
+
+}
+nav#navbar{
+    background-color: #d1d1d1;
+}
+button.navbar-toggler{
+    border: none;
+
+
+}
+
